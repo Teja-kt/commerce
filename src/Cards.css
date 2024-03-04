@@ -1,0 +1,39 @@
+.allItems{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.6rem;
+    margin: 2rem 1rem;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.products{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 280px;
+    /* width: fit-content; */
+    height: 430px;
+    background-color: rgb(173, 173, 209);
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+}
+
+.im{
+    width: 280px;
+    height: 300px;
+}
+
+.title{
+    width: 250px;
+}
+
+.btns{
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
